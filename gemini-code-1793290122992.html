@@ -207,11 +207,12 @@
       </div>
 
       <div class="form-group">
-        <label for="amountInput">Amount (Min 100.00 RM / Max 5 000.00 RM):</label>
+        <label for="amountInput">Amount (Min 50.00 RM / Max 5 000.00 RM):</label>
         <input type="number" id="amountInput" class="form-input" value="100.00">
       </div>
 
       <div class="amount-buttons">
+        <button class="btn-amount" onclick="setAmount(50)">50</button>
         <button class="btn-amount" onclick="setAmount(100)">100</button>
         <button class="btn-amount" onclick="setAmount(200)">200</button>
         <button class="btn-amount" onclick="setAmount(500)">500</button>
@@ -244,7 +245,7 @@
         <img src="https://i.postimg.cc/tgy6zRqX/RRVR.jpg" alt="Maybank Malaysia QR Code" class="qr-code">
       </div>
 
-      <p style="font-size: 13px; color: #666;">Transfer successful hole confirm screenshot direct WhatsApp-e pathan.</p>
+      <p style="font-size: 13px; color: #666;">Please send the payment confirmation screenshot via WhatsApp. Thank you!.</p>
 
       <button class="btn-whatsapp" onclick="sendToWhatsApp()">Send Confirmation to WhatsApp</button>
     </div>
